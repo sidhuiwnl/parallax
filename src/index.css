@@ -7,7 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: #f8fafc;
+  color: #1f2937;
 }
 
 code {
@@ -16,6 +17,12 @@ code {
 }
 
 img {
-  width: 40%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure proper spacing for fixed navbar */
+main {
+  padding-top: 64px; /* Height of navbar */
 }
 
