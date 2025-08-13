@@ -17,12 +17,10 @@ code {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  width: 40%;
 }
 
-/* Ensure proper spacing for fixed navbar */
-main {
-  padding-top: 64px; /* Height of navbar */
-}
 
+::-webkit-scrollbar {
+    display: none;
+}
